@@ -1,0 +1,138 @@
+/* Reset */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  /* Utility Classes */
+  .container{
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 20px;
+  }
+  .clr{
+      clear: both;
+  }
+  /* Main Styling */
+  html, body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+  }
+  a{
+    text-decoration: none;
+    color: #333;
+  }
+  #navbar{
+      position: sticky;
+      top: 0;
+    background-color: rgb(0, 0, 0);
+    overflow: auto;
+  }
+  #navbar a{
+    color: #fff;
+  }
+  #navbar h1{
+    float: left;
+    padding-top: 20px;
+    font-size: 30px;
+  }
+  #navbar ul{
+    float: right;
+    list-style: none;
+  }
+  #navbar ul li{
+    float: left;
+  }
+  #navbar ul li a{
+    display: block;
+      padding: 20px;
+      text-transform: uppercase;
+      font-weight: 600;
+  }
+  #navbar ul li a:hover{
+    background-color: #fff;
+    color: #000;
+    transition-duration: 1s;
+  }
+  #middle{
+      background: url(/img/iphone.jpg) no-repeat center center;
+      height: 1280px;
+  }
+  #middle .middle-content{
+      text-align: center;
+      padding-top: 250px;
+  } 
+  #middle .middle-content .middle-h2{
+      font-size: 60px;
+      padding-bottom: 30px;
+      color: #fff;
+  }
+  #middle .middle-content .middle-x{
+      color: #000;
+      cursor: pointer;
+      opacity: 70%;
+  }
+  #middle .middle-content .middle-x:hover{
+      opacity: 100%;
+  }
+  #middle .middle-content .middle-p{
+      color: #fff;
+      font-size: 20px;
+      padding-top: 10px;
+  }
+  #info-content{
+      height: 400px;
+  }
+  #info-content .info-image{
+      float: left;
+      width: 50%;
+      background: url(/img/aboutproject.jpg) no-repeat center center/cover;
+      height: 100%;
+  }
+  #info-content .second-project{
+      float: right;
+      width: 50%;
+      background-color: #000;
+      color: #fff;
+      height: 100%;
+      text-align: center;
+      padding-top: 185px;
+      border-bottom: 1px solid #fff;
+  }
+  .second-project .middle-button{
+      display: inline-block;
+      padding: 10px;
+      font-size: 20px;
+      margin-top: 20px;
+    background-color: #fff;
+    color: #000;
+    font-weight: 600;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+  }
+  .middle-button:hover{
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    transition-duration: 0.8s;
+  }
+  #footer{
+      padding-top: 25px;
+      color: #fff;
+      text-align: center;
+      height: 80px;
+      background-color: #000;
+  }
+  #footer{
+      font-size: 18px;
+      font-weight: 600;
+      text-transform: uppercase;
+  }
+  #footer:hover{
+
+    background-color: #fff;
+    color: #000;
+    transition-duration: 1s;
+  }
