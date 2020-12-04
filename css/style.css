@@ -57,7 +57,7 @@
     color: #000;
   }
   #middle{
-      background: url(img/iphone.jpg) no-repeat center center;
+      background: url(../img/iphone.jpg) no-repeat center center;
       height: 1280px;
   }
   #middle .middle-content{
@@ -88,7 +88,7 @@
   #info-content .info-image{
       float: left;
       width: 50%;
-      background: url(img/aboutproject.jpg) no-repeat center center/cover;
+      background: url(../img/aboutproject.jpg) no-repeat center center/cover;
       height: 100%;
   }
   #info-content .second-project{
